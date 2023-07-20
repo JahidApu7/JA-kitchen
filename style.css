@@ -2,3 +2,73 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+.Orange-Color {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.First-Banner {
+
+    background-image: url(First\ Background.jpg);
+}
+
+.Second-Banner {
+    background-image: url(First\ Background.jpg);
+}
+
+.Half-Width {
+    width: 50%;
+    padding-left: 5px;
+
+}
+
+.Half-Width p {
+    text-align: justify;
+}
+
+.Half-Width img {
+    width: 80%;
+    border-radius: 5%;
+    padding-left: 5%;
+
+}
+
+.Paragraph {
+    padding-right: 5px;
+    padding-top: 50px;
+}
+
+.Center-Align {
+    text-align: center;
+}
+
+.link-Button {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-weight: 800;
+}
+
+.link-Button2 {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+    font-weight: 800;
+}
