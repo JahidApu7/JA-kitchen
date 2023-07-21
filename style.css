@@ -17,6 +17,9 @@ h2 {
 
 section {
     margin-bottom: 50px;
+}
+
+.Flexible-Item {
     display: flex;
 }
 
@@ -28,6 +31,7 @@ section {
 .Second-Banner {
     background-image: url(First\ Background.jpg);
 }
+
 
 .Half-Width {
     width: 50%;
@@ -71,4 +75,31 @@ section {
     border-radius: 10%;
     color: white;
     font-weight: 800;
+}
+
+.My-Recipies {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.Recipe-Title-Main {
+    display: flex;
+
+}
+
+.Recipe-Title img {
+    max-width: 80%;
+    border-radius: 20px;
+    padding-left: 3%;
+
+}
+
+.Recipe-Title {
+    width: 40%;
+    padding: 10px;
+    text-align: justify;
+    margin: 5%;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 10px;
 }
