@@ -4,7 +4,7 @@ body {
 }
 
 .Orange-Color {
-    color: white;
+    color: orange;
 }
 
 h1 {
@@ -102,4 +102,27 @@ section {
     margin: 5%;
     box-shadow: 5px 5px 30px gray;
     border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
 }
